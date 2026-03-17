@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors from Style Guide [cite: 4, 6, 12, 13] */
+  --background: #ffffff;
+  --primary-orange: #ea580c; /* Orange 600 [cite: 6] */
+  --text-main: #374151;      /* Gray 700 [cite: 12] */
+  --text-heading: #111827;   /* Gray 900 [cite: 13] */
+  --radius: 0.625rem;        /* 10px [cite: 31] */
+}
+
+body {
+  font-family: 'Inter', -apple-system, sans-serif; /* [cite: 47] */
+  color: var(--text-main);
+  background-color: var(--background);
+}
+
+/* Use this for the hero section background [cite: 37] */
+.hero-gradient {
+  @apply bg-gradient-to-br from-orange-50 via-white to-orange-50;
+}
