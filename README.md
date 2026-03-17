@@ -1,10 +1,11 @@
 # Recipe Creator - Bootcamp Project
 
 ## Team
-- Nicholas-Maximilian
 - Justyna
 - Faolan
 - Samuel
+- Gustavo
+- Nicholas-Maximilian
 
 ## Setup
 1. `npm install`
