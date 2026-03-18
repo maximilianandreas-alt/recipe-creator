@@ -1,5 +1,5 @@
 export default function HomePage() {
-  return (
+  return ( 
     <div className="space-y-12">
       {/* Hero Section with Gradient [cite: 37, 101] */}
       <section className="hero-gradient py-12 rounded-lg text-center">
